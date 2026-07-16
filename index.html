@@ -310,11 +310,16 @@ section{position:relative;z-index:2;padding:140px 60px}
 .ta{background:rgba(0,255,170,0.1);color:#00ffaa;border:1px solid rgba(0,255,170,0.2)}
 .tk{background:rgba(255,0,122,0.1);color:#ff007a;border:1px solid rgba(255,0,122,0.2)}
 .apl{
-  display:inline-flex;align-items:center;gap:6px;
-  font-size:12px;font-weight:700;color:#00f0ff;
-  text-decoration:none;transition:gap .2s;
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:14px;font-weight:800;color:#00f0ff;
+  text-decoration:none;transition:all .3s;
+  padding:10px 20px;
+  border:1px solid rgba(0,240,255,0.3);
+  border-radius:100px;
+  background:rgba(0,240,255,0.06);
+  margin-top:4px;
 }
-.apl:hover{gap:11px}
+.apl:hover{gap:13px;background:rgba(0,240,255,0.14);border-color:rgba(0,240,255,0.6);box-shadow:0 0 20px rgba(0,240,255,0.2)}
 
 /* ── SERVICES ── */
 #services{background:rgba(4,4,13,0.72);backdrop-filter:blur(32px)}
@@ -518,35 +523,35 @@ footer{
 
       <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#4f8eff,#a855f7)">🧹</div><h3>Clean Master</h3><p>iPhone cache & memory cleaner with live RAM stats, battery monitor, smart clean score and streak tracking.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="#" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#0ea5e9,#6366f1)">📅</div><h3>ShiftDesk</h3><p>Danish restaurant staff scheduling SaaS with web dashboard and native SwiftUI iOS app backed by Firebase.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://shiftdesks.app" class="apl" target="_blank">Visit →</a></div>
+      <div onclick="window.open('https://shiftdesks.app','_blank')" style="cursor:pointer" class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#0ea5e9,#6366f1)">📅</div><h3>ShiftDesk</h3><p>Danish restaurant staff scheduling SaaS with web dashboard and native SwiftUI iOS app backed by Firebase.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://shiftdesks.app" class="apl" target="_blank">Visit →</a></div>
 
-      <div class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f97316,#dc2626)">📦</div><h3>Order Guide</h3><p>Restaurant inventory and ordering app for Danish kitchens. UIKit with annual inventory and PDF export.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">UIKit</span></div><a href="https://apps.apple.com/dk/app/order-guide/id6769667770" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/order-guide/id6769667770','_blank')" style="cursor:pointer" class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f97316,#dc2626)">📦</div><h3>Order Guide</h3><p>Restaurant inventory and ordering app for Danish kitchens. UIKit with annual inventory and PDF export.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">UIKit</span></div><a href="https://apps.apple.com/dk/app/order-guide/id6769667770" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#10b981,#059669)">🛡️</div><h3>MenuGuard</h3><p>Allergen safety app for restaurants and diners. Emergency card, quick actions, and multilingual support.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/menuguard/id6767590519" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/menuguard/id6767590519','_blank')" style="cursor:pointer" class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#10b981,#059669)">🛡️</div><h3>MenuGuard</h3><p>Allergen safety app for restaurants and diners. Emergency card, quick actions, and multilingual support.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/menuguard/id6767590519" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#84cc16,#16a34a)">🥾</div><h3>Trailmark Hiking</h3><p>GPS hiking and trail tracking app with CloudKit social backend, city walk mode and offline maps.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/trailmark-hiking/id6775267150" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/trailmark-hiking/id6775267150','_blank')" style="cursor:pointer" class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#84cc16,#16a34a)">🥾</div><h3>Trailmark Hiking</h3><p>GPS hiking and trail tracking app with CloudKit social backend, city walk mode and offline maps.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/trailmark-hiking/id6775267150" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f43f5e,#e11d48)">👟</div><h3>StepForge</h3><p>Fitness step tracking with HealthKit integration, dark design system, and StoreKit 2 Pro purchase.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/stepforge-app/id6783929162" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/stepforge-app/id6783929162','_blank')" style="cursor:pointer" class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f43f5e,#e11d48)">👟</div><h3>StepForge</h3><p>Fitness step tracking with HealthKit integration, dark design system, and StoreKit 2 Pro purchase.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/stepforge-app/id6783929162" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#7c3aed,#a855f7)">🍷</div><h3>Vino — Wine Scanner</h3><p>AI-powered wine scanner using Claude AI via a secure Cloudflare Worker proxy. Scan any label instantly.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag ta">AI</span></div><a href="https://apps.apple.com/dk/app/vino-wine-scanner/id6770291262" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/vino-wine-scanner/id6770291262','_blank')" style="cursor:pointer" class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#7c3aed,#a855f7)">🍷</div><h3>Vino — Wine Scanner</h3><p>AI-powered wine scanner using Claude AI via a secure Cloudflare Worker proxy. Scan any label instantly.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag ta">AI</span></div><a href="https://apps.apple.com/dk/app/vino-wine-scanner/id6770291262" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#f97316,#ea580c)">🍨</div><h3>Casa Di Scoop Pro</h3><p>Professional gelato formula calculator with 335+ recipes, auto-scale functions, and subscription platform.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://apps.apple.com/dk/app/casa-di-scoop-pro-app/id6771315255" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/casa-di-scoop-pro-app/id6771315255','_blank')" style="cursor:pointer" class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#f97316,#ea580c)">🍨</div><h3>Casa Di Scoop Pro</h3><p>Professional gelato formula calculator with 335+ recipes, auto-scale functions, and subscription platform.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://apps.apple.com/dk/app/casa-di-scoop-pro-app/id6771315255" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#06b6d4,#0284c7)">🗺️</div><h3>MoveLocal</h3><p>City discovery app with MapKit, CoreLocation, and live emergency number lookup by country.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/movelocal/id6782342670" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/movelocal/id6782342670','_blank')" style="cursor:pointer" class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#06b6d4,#0284c7)">🗺️</div><h3>MoveLocal</h3><p>City discovery app with MapKit, CoreLocation, and live emergency number lookup by country.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/movelocal/id6782342670" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#6366f1,#4f46e5)">💬</div><h3>RightNow</h3><p>Real-time social vibes app with CloudKit backend, private chat, RSVP and voice notes.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/rightnow-app/id6778835318" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/rightnow-app/id6778835318','_blank')" style="cursor:pointer" class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#6366f1,#4f46e5)">💬</div><h3>RightNow</h3><p>Real-time social vibes app with CloudKit backend, private chat, RSVP and voice notes.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/rightnow-app/id6778835318" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#ec4899,#be185d)">✈️</div><h3>Journey & Journal</h3><p>Travel journaling app with CloudKit backend, multi-trip architecture, and real-time family chat.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/journey-journal-travel-book/id6774942535" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/journey-journal-travel-book/id6774942535','_blank')" style="cursor:pointer" class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#ec4899,#be185d)">✈️</div><h3>Journey & Journal</h3><p>Travel journaling app with CloudKit backend, multi-trip architecture, and real-time family chat.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/journey-journal-travel-book/id6774942535" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f59e0b,#d97706)">🐾</div><h3>Felixo</h3><p>Dog wellness and health tracker with per-pet data isolation, push notifications and vet reminders.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/felixo/id6773382441" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/felixo/id6773382441','_blank')" style="cursor:pointer" class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#f59e0b,#d97706)">🐾</div><h3>Felixo</h3><p>Dog wellness and health tracker with per-pet data isolation, push notifications and vet reminders.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/felixo/id6773382441" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#1e293b,#0f172a)">🐱</div><h3>Felix Cat Care</h3><p>Cat wellness and health tracker with per-cat data isolation, push notifications and health logs.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/felix-cat-care/id6771060427" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/felix-cat-care/id6771060427','_blank')" style="cursor:pointer" class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#1e293b,#0f172a)">🐱</div><h3>Felix Cat Care</h3><p>Cat wellness and health tracker with per-cat data isolation, push notifications and health logs.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/felix-cat-care/id6771060427" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#fbbf24,#f59e0b)">🍦</div><h3>Casa Di Scoop</h3><p>Original gelato calculator app with professional formula tools and Carpigiani methodology.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://apps.apple.com/dk/app/casa-di-scoop/id6767993622" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/casa-di-scoop/id6767993622','_blank')" style="cursor:pointer" class="apc rv d2"><div class="apic" style="background:linear-gradient(135deg,#fbbf24,#f59e0b)">🍦</div><h3>Casa Di Scoop</h3><p>Original gelato calculator app with professional formula tools and Carpigiani methodology.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tw">Web</span></div><a href="https://apps.apple.com/dk/app/casa-di-scoop/id6767993622" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#22c55e,#15803d)">💪</div><h3>Zest Training</h3><p>Fitness training app with workout programs, progress tracking, and premium subscription.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/zest-training/id6776747724" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/zest-training/id6776747724','_blank')" style="cursor:pointer" class="apc rv d3"><div class="apic" style="background:linear-gradient(135deg,#22c55e,#15803d)">💪</div><h3>Zest Training</h3><p>Fitness training app with workout programs, progress tracking, and premium subscription.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/zest-training/id6776747724" class="apl" target="_blank">App Store →</a></div>
 
-      <div class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#ef4444,#b91c1c)">🍎</div><h3>NutriTrack Pro</h3><p>Calorie coach and nutrition tracker with barcode scanner, meal logging, and training programs.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/nutritrack-pro-calorie-coach/id6766963311" class="apl" target="_blank">App Store →</a></div>
+      <div onclick="window.open('https://apps.apple.com/dk/app/nutritrack-pro-calorie-coach/id6766963311','_blank')" style="cursor:pointer" class="apc rv d1"><div class="apic" style="background:linear-gradient(135deg,#ef4444,#b91c1c)">🍎</div><h3>NutriTrack Pro</h3><p>Calorie coach and nutrition tracker with barcode scanner, meal logging, and training programs.</p><div class="atags"><span class="tag ti">iOS</span><span class="tag tk">SwiftUI</span></div><a href="https://apps.apple.com/dk/app/nutritrack-pro-calorie-coach/id6766963311" class="apl" target="_blank">App Store →</a></div>
 
     </div>
   </div>
@@ -581,11 +586,14 @@ footer{
       </div>
       <div class="ctf rv d2">
         <form id="contact-form" onsubmit="sendMsg(event)">
-          <div class="fg"><label>Your Name</label><input type="text" id="fname" placeholder="John Smith" required></div>
-          <div class="fg"><label>Email Address</label><input type="email" id="femail" placeholder="john@example.com" required></div>
-          <div class="fg"><label>Message</label><textarea id="fmsg" placeholder="Tell me about your project..." required></textarea></div>
-          <p style="font-size:12px;color:rgba(255,255,255,0.35);margin-bottom:14px;text-align:center">
-            Message will be sent to <span style="color:#00f0ff">runzone5@gmail.com</span>
+          <input type="hidden" name="access_key" value="f67ae48d-db8a-4c3d-a1c6-966e627b0239">
+          <input type="hidden" name="subject" value="New message from chmays.app">
+          <input type="hidden" name="from_name" value="chmays.app Website">
+          <div class="fg"><label>Your Name</label><input type="text" name="name" id="fname" placeholder="John Smith" required></div>
+          <div class="fg"><label>Email Address</label><input type="email" name="email" id="femail" placeholder="john@example.com" required></div>
+          <div class="fg"><label>Message</label><textarea name="message" id="fmsg" placeholder="Tell me about your project..." required></textarea></div>
+          <p style="font-size:12px;color:rgba(255,255,255,0.3);margin-bottom:14px;text-align:center">
+            Message goes directly to <span style="color:#00f0ff">support@chmays.app</span>
           </p>
           <button type="submit" class="sbtn" id="fsbtn">Send Message →</button>
           <p id="fstatus" style="margin-top:14px;font-size:13px;text-align:center;display:none"></p>
@@ -699,37 +707,55 @@ document.querySelectorAll('.apc').forEach(card => {
 });
 
 // ── CONTACT FORM ──
-function sendMsg(e) {
+async function sendMsg(e) {
   e.preventDefault();
-  const name  = document.getElementById('fname').value;
-  const email = document.getElementById('femail').value;
-  const msg   = document.getElementById('fmsg').value;
-  const btn   = document.getElementById('fsbtn');
-  const status= document.getElementById('fstatus');
+  const btn    = document.getElementById('fsbtn');
+  const status = document.getElementById('fstatus');
+  const form   = document.getElementById('contact-form');
 
-  // Build mailto link with pre-filled content
-  const subject = encodeURIComponent('Project Inquiry from ' + name);
-  const body    = encodeURIComponent(
-    'Name: ' + name + '\n' +
-    'Email: ' + email + '\n\n' +
-    'Message:\n' + msg
-  );
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+  btn.style.opacity = '0.7';
 
-  // Open mail client
-  window.location.href = 'mailto:runzone5@gmail.com?subject=' + subject + '&body=' + body;
+  const data = new FormData(form);
+  const obj  = Object.fromEntries(data.entries());
+  obj.botcheck = '';
 
-  // Show confirmation
-  btn.textContent = 'Opening Mail ✓';
-  btn.style.background = 'linear-gradient(135deg,#00ffaa,#10b981)';
-  status.style.display = 'block';
-  status.style.color = '#00ffaa';
-  status.textContent = 'Your mail app will open with the message pre-filled.';
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(obj)
+    });
+    const json = await res.json();
+
+    if (json.success) {
+      btn.textContent = 'Message Sent ✓';
+      btn.style.background = 'linear-gradient(135deg,#00ffaa,#10b981)';
+      btn.style.opacity = '1';
+      status.style.display = 'block';
+      status.style.color = '#00ffaa';
+      status.textContent = 'Thank you! I will get back to you within 24 hours.';
+      form.reset();
+    } else {
+      throw new Error(json.message);
+    }
+  } catch(err) {
+    btn.textContent = 'Failed — try again';
+    btn.style.background = 'linear-gradient(135deg,#ff007a,#dc2626)';
+    btn.style.opacity = '1';
+    status.style.display = 'block';
+    status.style.color = '#ff007a';
+    status.textContent = 'Something went wrong. Email support@chmays.app directly.';
+  }
 
   setTimeout(() => {
     btn.textContent = 'Send Message →';
     btn.style.background = '';
+    btn.style.opacity = '1';
+    btn.disabled = false;
     status.style.display = 'none';
-  }, 4000);
+  }, 5000);
 }
 
 // ── SMOOTH SCROLL ──
