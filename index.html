@@ -319,6 +319,7 @@ section{position:relative;z-index:2;padding:140px 60px}
   display:inline-flex;align-items:center;gap:6px;
   font-size:12px;font-weight:700;color:#00f0ff;
   text-decoration:none;transition:gap .2s;
+  cursor:pointer;position:relative;z-index:10;
 }
 .apl:hover{gap:11px}
 
@@ -744,6 +745,19 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     e.preventDefault();
     const el = document.querySelector(a.getAttribute('href'));
     if(el) lenis.scrollTo(el, { offset:-80, duration:1.4 });
+  });
+});
+
+// ── APP CARD CLICK → APP STORE LINK ──
+document.querySelectorAll('.apc').forEach(card => {
+  card.style.cursor = 'pointer';
+  card.addEventListener('click', e => {
+    // If click was on the link itself, let it go naturally
+    if(e.target.closest('.apl')) return;
+    const link = card.querySelector('.apl');
+    if(link && link.href && link.href !== '#' && !link.href.endsWith('#')) {
+      window.open(link.href, '_blank');
+    }
   });
 });
 
