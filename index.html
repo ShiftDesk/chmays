@@ -439,6 +439,8 @@ footer{
   .apg{grid-template-columns:1fr}
   .svg{grid-template-columns:1fr}
   .ctg{grid-template-columns:1fr}
+  .hire-block{padding:28px 20px!important}
+  .price-grid{grid-template-columns:1fr!important}
   footer{padding:40px 24px 28px;flex-direction:column;text-align:center}
   .flinks{justify-content:center}
   #cur-dot,#cur-ring{display:none}
@@ -561,7 +563,7 @@ footer{
 <!-- SERVICES -->
 <section id="services">
   <div class="wrap">
-    <div class="shd center rv"><span class="slabel" style="display:block;text-align:center">Services</span><h2 class="stitle">What I Can Build</h2><p class="ssub">Need an app built, improved, or a web platform launched? Let's talk.</p></div>
+    <div class="shd center rv"><span class="slabel" style="display:block;text-align:center">Services</span><h2 class="stitle">What I Can Build</h2><p class="ssub">23 published apps on the App Store, built independently end-to-end. Available for freelance work — fixed price or hourly.</p></div>
     <div class="svg">
       <div class="svc rv d1"><div class="svic" style="background:rgba(0,240,255,0.08)">📱</div><h3>iOS Development</h3><p>Native SwiftUI and UIKit apps for iPhone and iPad. From MVP to App Store submission, fully handled.</p></div>
       <div class="svc rv d2"><div class="svic" style="background:rgba(112,0,255,0.08)">🌐</div><h3>SaaS Web Apps</h3><p>Firebase-backed web dashboards and platforms. Custom clean UI from zero to deployment.</p></div>
@@ -571,6 +573,58 @@ footer{
       <div class="svc rv d2"><div class="svic" style="background:rgba(0,240,255,0.08)">🔍</div><h3>App Audit & Security</h3><p>Security review, performance audit, and code hardening for existing iOS apps before submission.</p></div>
       <div class="svc rv d3"><div class="svic" style="background:rgba(255,0,122,0.08)">🌍</div><h3>Website Development</h3><p>Custom HTML, CSS and JavaScript websites. Landing pages, portfolio sites and GitHub Pages — fast, beautiful and fully responsive.</p></div>
     </div>
+
+    <!-- HIRE ME / PRICING BLOCK -->
+    <div class="hire-block rv" style="margin-top:60px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:44px 48px;background:rgba(255,255,255,0.03);">
+      <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start;">
+        <div style="flex:1;min-width:260px;">
+          <span class="slabel" style="display:block;margin-bottom:10px">Available for hire</span>
+          <h3 style="font-size:22px;font-weight:700;margin-bottom:12px;color:#fff;">Fixed-price packages</h3>
+          <div class="price-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px;">
+            <div class="price-card" style="background:rgba(0,240,255,0.05);border:1px solid rgba(0,240,255,0.12);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">Simple iOS app</div>
+              <div style="font-size:24px;font-weight:700;color:#00f0ff;">$300</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Up to 5 screens, SwiftUI</div>
+            </div>
+            <div class="price-card" style="background:rgba(112,0,255,0.05);border:1px solid rgba(112,0,255,0.18);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">iOS app + backend</div>
+              <div style="font-size:24px;font-weight:700;color:#7000ff;">$800</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Complex app + API</div>
+            </div>
+            <div class="price-card" style="background:rgba(0,255,170,0.05);border:1px solid rgba(0,255,170,0.12);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">Cloudflare Worker API</div>
+              <div style="font-size:24px;font-weight:700;color:#00ffaa;">$150</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Worker + D1 database</div>
+            </div>
+            <div class="price-card" style="background:rgba(255,0,122,0.05);border:1px solid rgba(255,0,122,0.12);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">Stripe integration</div>
+              <div style="font-size:24px;font-weight:700;color:#ff007a;">$200</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Payments or StoreKit 2</div>
+            </div>
+            <div class="price-card" style="background:rgba(0,240,255,0.05);border:1px solid rgba(0,240,255,0.12);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">App Store submission</div>
+              <div style="font-size:24px;font-weight:700;color:#00f0ff;">$100</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Full review prep</div>
+            </div>
+            <div class="price-card" style="background:rgba(112,0,255,0.05);border:1px solid rgba(112,0,255,0.18);border-radius:12px;padding:16px 18px;">
+              <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:6px;">WordPress + Stripe</div>
+              <div style="font-size:24px;font-weight:700;color:#7000ff;">$250</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Site + payment setup</div>
+            </div>
+          </div>
+        </div>
+        <div style="flex:0 0 auto;min-width:220px;display:flex;flex-direction:column;gap:20px;">
+          <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px 26px;text-align:center;">
+            <div style="font-size:13px;color:rgba(255,255,255,0.45);margin-bottom:6px;letter-spacing:.04em;">Hourly rate</div>
+            <div style="font-size:44px;font-weight:800;color:#fff;letter-spacing:-2px;">$35</div>
+            <div style="font-size:13px;color:rgba(255,255,255,0.45);">per hour</div>
+            <div style="margin-top:14px;font-size:12px;color:rgba(255,255,255,0.35);line-height:1.6;">Available immediately.<br>Source code included.</div>
+          </div>
+          <a href="mailto:support@chmays.app" class="btn-o" style="text-align:center;display:block;">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -581,7 +635,7 @@ footer{
     <div class="ctg">
       <div class="cti rv d1">
         <a href="mailto:support@chmays.app" class="ci"><div class="ciic" style="background:rgba(0,240,255,0.08)">✉️</div><div><h4>Email</h4><p>support@chmays.app</p></div></a>
-        <a href="https://apps.apple.com/dk/developer/alex-adam-chmays/id1896341424" target="_blank" class="ci"><div class="ciic" style="background:rgba(112,0,255,0.08)">🍎</div><div><h4>App Store</h4><p>View all 16 apps</p></div></a>
+        <a href="https://apps.apple.com/dk/developer/alex-adam-chmays/id1896341424" target="_blank" class="ci"><div class="ciic" style="background:rgba(112,0,255,0.08)">🍎</div><div><h4>App Store</h4><p>View all 23 apps</p></div></a>
         <a href="https://casadiscoop.com" target="_blank" class="ci"><div class="ciic" style="background:rgba(255,0,122,0.08)">🍨</div><div><h4>Casa di Scoop</h4><p>casadiscoop.com</p></div></a>
         <a href="https://shiftdesks.app" target="_blank" class="ci"><div class="ciic" style="background:rgba(0,240,255,0.08)">📅</div><div><h4>ShiftDesk</h4><p>shiftdesks.app</p></div></a>
       </div>
