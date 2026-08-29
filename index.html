@@ -344,6 +344,7 @@ section{position:relative;z-index:2;padding:140px 60px}
 .svc p{font-size:13px;color:rgba(255,255,255,0.5);line-height:1.72}
 
 /* ── CONTACT ── */
+#agent{background:rgba(4,4,13,0.60)}
 #contact{background:rgba(4,4,13,0.45)}
 .ctg{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
 .cti{
@@ -471,6 +472,7 @@ footer{
     <li><a href="#about">About</a></li>
     <li><a href="#apps">Apps</a></li>
     <li><a href="#services">Services</a></li>
+    <li><a href="#agent">AI Agent</a></li>
     <li><a href="#contact" class="ncta">Contact</a></li>
   </ul>
 </nav>
@@ -628,6 +630,71 @@ footer{
   </div>
 </section>
 
+<!-- AI AGENT -->
+<section id="agent">
+  <div class="wrap">
+    <div class="shd center rv"><span class="slabel" style="display:block;text-align:center">AI Agent Building</span><h2 class="stitle">I Build Custom AI Assistants</h2><p class="ssub">I already built Tom — a fully working personal AI assistant with voice calls, SMS, push notifications, reminders, and memory. I can build the same for your business.</p></div>
+
+    <!-- TOM SHOWCASE -->
+    <div class="rv" style="margin-top:48px;background:rgba(255,255,255,0.03);border:1px solid rgba(0,240,255,0.12);border-radius:20px;padding:44px 48px;">
+      <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start;">
+        <div style="flex:1;min-width:260px;">
+          <h3 style="font-size:22px;font-weight:700;color:#00f0ff;margin-bottom:8px;">Tom — My Personal AI Assistant</h3>
+          <p style="color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:20px;">Tom is a real AI assistant I built for myself. It runs on Cloudflare Workers, uses Claude AI, and is available 24/7 via iPhone app, WhatsApp, and Telegram. It handles calls, sends SMS, sets reminders and remembers everything.</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div style="background:rgba(0,240,255,0.06);border:1px solid rgba(0,240,255,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Chat + Memory</div><div style="color:#fff;font-size:13px;">iPhone app, Claude AI, D1 database memory</div></div>
+            <div style="background:rgba(112,0,255,0.06);border:1px solid rgba(112,0,255,0.15);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Voice Calls</div><div style="color:#fff;font-size:13px;">Tom calls any number on your behalf via Vapi</div></div>
+            <div style="background:rgba(0,255,170,0.06);border:1px solid rgba(0,255,170,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">SMS + Push</div><div style="color:#fff;font-size:13px;">Sends SMS via Twilio and push notifications to iPhone</div></div>
+            <div style="background:rgba(255,0,122,0.06);border:1px solid rgba(255,0,122,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Timed Reminders</div><div style="color:#fff;font-size:13px;">Tell Tom "remind me at 3pm" — fires exactly on time</div></div>
+          </div>
+        </div>
+        <div style="flex:0 0 auto;min-width:220px;display:flex;flex-direction:column;gap:16px;">
+          <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px;text-align:center;">
+            <div style="font-size:36px;margin-bottom:8px;">🤖</div>
+            <div style="font-size:14px;font-weight:700;color:#fff;margin-bottom:6px;">Tom Stack</div>
+            <div style="font-size:12px;color:rgba(255,255,255,0.4);line-height:1.8;">Cloudflare Workers + D1<br>Claude AI · Vapi · Twilio<br>SwiftUI iOS App<br>APNs Push Notifications</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUSINESS AGENT PACKAGES -->
+    <div class="rv" style="margin-top:40px;">
+      <h3 style="font-size:20px;font-weight:700;color:#fff;margin-bottom:28px;text-align:center;">Build a Custom AI Agent for Your Business</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+        <div style="background:rgba(0,240,255,0.05);border:1px solid rgba(0,240,255,0.15);border-radius:16px;padding:28px 24px;">
+          <div style="font-size:28px;margin-bottom:12px;">💬</div>
+          <h4 style="font-size:16px;font-weight:700;color:#00f0ff;margin-bottom:8px;">Basic AI Assistant</h4>
+          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Chat + memory + reminders. Works on any device via web or mobile.</p>
+          <div style="font-size:28px;font-weight:800;color:#00f0ff;">$500</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">one-time setup</div>
+        </div>
+        <div style="background:rgba(112,0,255,0.05);border:1px solid rgba(112,0,255,0.2);border-radius:16px;padding:28px 24px;">
+          <div style="font-size:28px;margin-bottom:12px;">🚀</div>
+          <h4 style="font-size:16px;font-weight:700;color:#7000ff;margin-bottom:8px;">Full Tom Clone</h4>
+          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Everything: iOS app, voice calls, SMS, push, reminders, memory, web search.</p>
+          <div style="font-size:28px;font-weight:800;color:#7000ff;">$1,500</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">one-time setup</div>
+        </div>
+        <div style="background:rgba(0,255,170,0.05);border:1px solid rgba(0,255,170,0.15);border-radius:16px;padding:28px 24px;">
+          <div style="font-size:28px;margin-bottom:12px;">🍽️</div>
+          <h4 style="font-size:16px;font-weight:700;color:#00ffaa;margin-bottom:8px;">Restaurant Agent</h4>
+          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Answers calls, takes reservations, sends reminders. $200–$500/month full service.</p>
+          <div style="font-size:28px;font-weight:800;color:#00ffaa;">Custom</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">monthly subscription</div>
+        </div>
+      </div>
+      <div style="margin-top:24px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:20px 24px;font-size:13px;color:rgba(255,255,255,0.45);line-height:1.8;text-align:center;">
+        ⚙️ Running costs are separate and paid by the client: Cloudflare ~$5/month · Vapi calls ~$0.05–0.15/min · Twilio SMS ~$0.01/msg · Claude API ~$0.001/msg · Anthropic API key required
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:40px;">
+      <a href="mailto:support@chmays.app" class="btn-g" style="display:inline-block;">Build My AI Agent →</a>
+    </div>
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section id="contact">
   <div class="wrap">
@@ -665,6 +732,7 @@ footer{
     <li><a href="#about">About</a></li>
     <li><a href="#apps">Apps</a></li>
     <li><a href="#services">Services</a></li>
+    <li><a href="#agent">AI Agent</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <p class="fcopy">© 2026 chmays.app — All rights reserved</p>
