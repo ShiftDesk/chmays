@@ -633,64 +633,83 @@ footer{
 <!-- AI AGENT -->
 <section id="agent">
   <div class="wrap">
-    <div class="shd center rv"><span class="slabel" style="display:block;text-align:center">AI Agent Building</span><h2 class="stitle">I Build Custom AI Assistants</h2><p class="ssub">I already built Tom — a fully working personal AI assistant with voice calls, SMS, push notifications, reminders, and memory. I can build the same for your business.</p></div>
+    <div class="shd center rv"><span class="slabel" style="display:block;text-align:center">AI Agent</span><h2 class="stitle">Your Business Can Have Its Own AI Agent</h2><p class="ssub">An AI assistant built specifically for your business. It chats with customers, remembers important details, handles reminders, answers calls, and sends SMS — 24/7, in any language.</p></div>
 
-    <!-- TOM SHOWCASE -->
-    <div class="rv" style="margin-top:48px;background:rgba(255,255,255,0.03);border:1px solid rgba(0,240,255,0.12);border-radius:20px;padding:44px 48px;">
-      <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start;">
-        <div style="flex:1;min-width:260px;">
-          <h3 style="font-size:22px;font-weight:700;color:#00f0ff;margin-bottom:8px;">Tom — My Personal AI Assistant</h3>
-          <p style="color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:20px;">Tom is a real AI assistant I built for myself. It runs on Cloudflare Workers, uses Claude AI, and is available 24/7 via iPhone app, WhatsApp, and Telegram. It handles calls, sends SMS, sets reminders and remembers everything.</p>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-            <div style="background:rgba(0,240,255,0.06);border:1px solid rgba(0,240,255,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Chat + Memory</div><div style="color:#fff;font-size:13px;">iPhone app, Claude AI, D1 database memory</div></div>
-            <div style="background:rgba(112,0,255,0.06);border:1px solid rgba(112,0,255,0.15);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Voice Calls</div><div style="color:#fff;font-size:13px;">Tom calls any number on your behalf via Vapi</div></div>
-            <div style="background:rgba(0,255,170,0.06);border:1px solid rgba(0,255,170,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">SMS + Push</div><div style="color:#fff;font-size:13px;">Sends SMS via Twilio and push notifications to iPhone</div></div>
-            <div style="background:rgba(255,0,122,0.06);border:1px solid rgba(255,0,122,0.12);border-radius:12px;padding:14px 16px;"><div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:4px;">Timed Reminders</div><div style="color:#fff;font-size:13px;">Tell Tom "remind me at 3pm" — fires exactly on time</div></div>
-          </div>
+    <!-- PACKAGES -->
+    <div class="rv" style="margin-top:48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+
+      <!-- Basic -->
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:18px;padding:36px 32px;">
+        <h3 style="font-size:18px;font-weight:700;color:#fff;margin-bottom:4px;">Basic Setup</h3>
+        <div style="font-size:42px;font-weight:800;color:#7000ff;letter-spacing:-2px;margin-bottom:2px;">$500</div>
+        <div style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:24px;">One-time setup</div>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:20px;">
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">💬</span> Chat with customers</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🧠</span> Memory</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🔔</span> Reminders</div>
         </div>
-        <div style="flex:0 0 auto;min-width:220px;display:flex;flex-direction:column;gap:16px;">
-          <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:24px;text-align:center;">
-            <div style="font-size:36px;margin-bottom:8px;">🤖</div>
-            <div style="font-size:14px;font-weight:700;color:#fff;margin-bottom:6px;">Tom Stack</div>
-            <div style="font-size:12px;color:rgba(255,255,255,0.4);line-height:1.8;">Cloudflare Workers + D1<br>Claude AI · Vapi · Twilio<br>SwiftUI iOS App<br>APNs Push Notifications</div>
-          </div>
-        </div>
+        <p style="font-size:13px;color:rgba(255,255,255,0.45);line-height:1.6;">Perfect if you want an AI assistant without the complexity.</p>
       </div>
+
+      <!-- Full -->
+      <div style="background:rgba(112,0,255,0.08);border:1px solid rgba(112,0,255,0.3);border-radius:18px;padding:36px 32px;">
+        <h3 style="font-size:18px;font-weight:700;color:#fff;margin-bottom:4px;">Full AI Agent</h3>
+        <div style="font-size:42px;font-weight:800;color:#7000ff;letter-spacing:-2px;margin-bottom:2px;">$1,500</div>
+        <div style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-bottom:24px;">One-time setup</div>
+        <p style="font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:16px;">Everything in Basic, plus:</p>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:20px;">
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">📞</span> Voice calls</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">💬</span> SMS</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🔔</span> Reminders</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">📲</span> Push notifications</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🌐</span> Multilingual conversations</div>
+        </div>
+        <p style="font-size:13px;color:rgba(255,255,255,0.45);line-height:1.6;">Your AI speaks the language your customer chooses.</p>
+      </div>
+
     </div>
 
-    <!-- BUSINESS AGENT PACKAGES -->
-    <div class="rv" style="margin-top:40px;">
-      <h3 style="font-size:20px;font-weight:700;color:#fff;margin-bottom:28px;text-align:center;">Build a Custom AI Agent for Your Business</h3>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
-        <div style="background:rgba(0,240,255,0.05);border:1px solid rgba(0,240,255,0.15);border-radius:16px;padding:28px 24px;">
-          <div style="font-size:28px;margin-bottom:12px;">💬</div>
-          <h4 style="font-size:16px;font-weight:700;color:#00f0ff;margin-bottom:8px;">Basic AI Assistant</h4>
-          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Chat + memory + reminders. Works on any device via web or mobile.</p>
-          <div style="font-size:28px;font-weight:800;color:#00f0ff;">$500</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">one-time setup</div>
+    <!-- MAINTENANCE + RESTAURANT -->
+    <div class="rv" style="margin-top:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+
+      <!-- Maintenance -->
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:18px;padding:36px 32px;">
+        <h3 style="font-size:18px;font-weight:700;color:#fff;margin-bottom:4px;">Keep It Running</h3>
+        <div style="font-size:42px;font-weight:800;color:#00f0ff;letter-spacing:-2px;margin-bottom:2px;">$190<span style="font-size:20px;font-weight:400;">/month</span></div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.45);margin-bottom:24px;">Your monthly maintenance includes:</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">☁️</span> Hosting</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🔄</span> Updates</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🎧</span> Support</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">⚙️</span> Ongoing maintenance</div>
         </div>
-        <div style="background:rgba(112,0,255,0.05);border:1px solid rgba(112,0,255,0.2);border-radius:16px;padding:28px 24px;">
-          <div style="font-size:28px;margin-bottom:12px;">🚀</div>
-          <h4 style="font-size:16px;font-weight:700;color:#7000ff;margin-bottom:8px;">Full Tom Clone</h4>
-          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Everything: iOS app, voice calls, SMS, push, reminders, memory, web search.</p>
-          <div style="font-size:28px;font-weight:800;color:#7000ff;">$1,500</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">one-time setup</div>
+        <div style="margin-top:24px;background:rgba(0,240,255,0.06);border:1px solid rgba(0,240,255,0.12);border-radius:12px;padding:16px 18px;font-size:13px;color:rgba(255,255,255,0.6);line-height:1.65;">You focus on your business. Your AI keeps working.</div>
+      </div>
+
+      <!-- Restaurant -->
+      <div style="background:rgba(255,165,0,0.06);border:1px solid rgba(255,165,0,0.25);border-radius:18px;padding:36px 32px;">
+        <h3 style="font-size:20px;font-weight:800;color:#FFA500;margin-bottom:16px;">🍽️ Restaurants</h3>
+        <p style="font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:16px;">Imagine an AI that:</p>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:24px;">
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">📞</span> Answers customer calls</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">📅</span> Takes reservations</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🔔</span> Sends booking reminders</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">💬</span> Answers common questions</div>
+          <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.8);font-size:14px;"><span style="font-size:18px;">🌐</span> Speaks the customer's language</div>
         </div>
-        <div style="background:rgba(0,255,170,0.05);border:1px solid rgba(0,255,170,0.15);border-radius:16px;padding:28px 24px;">
-          <div style="font-size:28px;margin-bottom:12px;">🍽️</div>
-          <h4 style="font-size:16px;font-weight:700;color:#00ffaa;margin-bottom:8px;">Restaurant Agent</h4>
-          <p style="color:rgba(255,255,255,0.55);font-size:13px;line-height:1.65;margin-bottom:16px;">Answers calls, takes reservations, sends reminders. $200–$500/month full service.</p>
-          <div style="font-size:28px;font-weight:800;color:#00ffaa;">Custom</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">monthly subscription</div>
+        <div style="background:rgba(255,165,0,0.12);border:1px solid rgba(255,165,0,0.3);border-radius:12px;padding:18px 20px;text-align:center;">
+          <div style="font-size:32px;font-weight:800;color:#FFA500;">$400<span style="font-size:16px;font-weight:400;">/month</span></div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.5);margin-top:4px;">Full service, including handling the API costs.</div>
         </div>
       </div>
-      <div style="margin-top:24px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:20px 24px;font-size:13px;color:rgba(255,255,255,0.45);line-height:1.8;text-align:center;">
-        ⚙️ Running costs are separate and paid by the client: Cloudflare ~$5/month · Vapi calls ~$0.05–0.15/min · Twilio SMS ~$0.01/msg · Claude API ~$0.001/msg · Anthropic API key required
-      </div>
+
     </div>
 
-    <div style="text-align:center;margin-top:40px;">
-      <a href="mailto:support@chmays.app" class="btn-g" style="display:inline-block;">Build My AI Agent →</a>
+    <!-- CTA -->
+    <div class="rv" style="margin-top:40px;text-align:center;">
+      <p style="font-size:16px;font-weight:700;color:#fff;margin-bottom:8px;">Stop missing customers.</p>
+      <p style="font-size:14px;color:rgba(255,255,255,0.5);margin-bottom:28px;">Your AI agent can answer, remember, book, remind and communicate 24/7 — in the language your customer prefers.</p>
+      <a href="mailto:support@chmays.app" class="btn-g" style="display:inline-block;">DM "AI" to Get Started →</a>
     </div>
   </div>
 </section>
